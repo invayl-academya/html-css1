@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background: whitesmoke; */
+  box-shadow: none;
+}
+
+.top-header {
+  background: rgb(8, 5, 27);
+  padding: 20px;
+  width: 100%;
+}
+.top-header h1 {
+  background: none;
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+}
+.top-header p {
+  background: none;
+  text-align: center;
+  color: white;
+}
+
+section {
+  background-color: antiquewhite;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.profile-menu {
+  padding: 30px;
+  margin: 8px;
+  background: aqua;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.profile-menu h2 p {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+/* @media (max-width: 750px) {
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+  }
+} */
